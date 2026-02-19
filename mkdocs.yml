@@ -1,4 +1,14 @@
-site_name: Documentacion de PYPI
+site_name: Hola Mundo PySide6
+ 
+theme:
+  name: material
+
 nav:
-    - Home: index.md
-    - sobre el proyecto: about.md
+  - Home: index.md
+  - About: about.md
+  - PDF: PDF.md
+ 
+plugins:
+  - search
+  - pdf-export:
+      combined: true
